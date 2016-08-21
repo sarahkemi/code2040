@@ -2,7 +2,7 @@ import requests
 
 #grab string from API
 
-token = {'token':'c9f5cfe5b9bb943bd587baed3e3d99c3'}
+token = {'token':'36195bfa379afc49b9c42ab8ed2c25b9'}
 
 req = requests.post("http://challenge.code2040.org/api/reverse", data=token)
 
